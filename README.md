@@ -11,7 +11,7 @@
 - [x] Basic JS "Hello World"
 - [x] Intro to Raw React APIs
 - [x] Using JSX
-- [ ] Creating Custom Components
+- [x] Creating Custom Components
 - [ ] Styling
 - [ ] Forms
 - [ ] Rendering Arrays
