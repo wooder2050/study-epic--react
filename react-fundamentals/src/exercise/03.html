@@ -5,12 +5,18 @@
   <div id="root"></div>
   <script src="https://unpkg.com/react@17.0.0/umd/react.development.js"></script>
   <script src="https://unpkg.com/react-dom@17.0.0/umd/react-dom.development.js"></script>
+  <script src="https://unpkg.com/@babel/standalone@7.12.4/babel.js"></script>
+  <script type="text/babel">
+    const greeting = 'Hello World'
+    const myClassName = 'container'
 
-  <script type="module">
-    const element = React.createElement('div', {
-      className: 'container',
-      children: 'Hello World',
-    })
+    const props = {children, myClassName}
+    const element = <div id="my-thing" {...props} className="default" />
+    // const element = (
+    //   <div id="string" className={myClassName.toUpperCase()}>
+    //     {greeting}
+    //   </div>
+    // )
     ReactDOM.render(element, document.getElementById('root'))
   </script>
 </body>

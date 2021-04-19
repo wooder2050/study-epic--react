@@ -10,7 +10,7 @@
 
 - [x] Basic JS "Hello World"
 - [x] Intro to Raw React APIs
-- [ ] Using JSX
+- [x] Using JSX
 - [ ] Creating Custom Components
 - [ ] Styling
 - [ ] Forms
