@@ -12,7 +12,7 @@
 - [x] Intro to Raw React APIs
 - [x] Using JSX
 - [x] Creating Custom Components
-- [ ] Styling
+- [x] Styling
 - [ ] Forms
 - [ ] Rendering Arrays
 - [ ] React Fundamentals Outro
