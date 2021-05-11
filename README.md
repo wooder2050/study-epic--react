@@ -13,7 +13,7 @@
 - [x] Using JSX
 - [x] Creating Custom Components
 - [x] Styling
-- [ ] Forms
+- [x] Forms
 - [ ] Rendering Arrays
 - [ ] React Fundamentals Outro
 
