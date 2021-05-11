@@ -15,7 +15,7 @@
 - [x] Styling
 - [x] Forms
 - [x] Rendering Arrays
-- [ ] React Fundamentals Outro
+- [x] React Fundamentals Outro
 
 ---
 
