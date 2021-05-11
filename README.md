@@ -14,7 +14,7 @@
 - [x] Creating Custom Components
 - [x] Styling
 - [x] Forms
-- [ ] Rendering Arrays
+- [x] Rendering Arrays
 - [ ] React Fundamentals Outro
 
 ---
