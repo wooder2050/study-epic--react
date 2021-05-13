@@ -25,7 +25,7 @@
 
 ### Courses
 
-- [ ] React Hooks Welcome
+- [x] React Hooks Welcome
 - [ ] useState: greeting
 - [ ] useEffect: persistent state
 - [ ] Hooks Flow
