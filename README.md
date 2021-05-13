@@ -26,8 +26,8 @@
 ### Courses
 
 - [x] React Hooks Welcome
-- [ ] useState: greeting
-- [ ] useEffect: persistent state
+- [x] useState: greeting
+- [x] useEffect: persistent state
 - [ ] Hooks Flow
 - [ ] Lifting state
 - [ ] useState: tic tac toe
