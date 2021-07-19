@@ -28,9 +28,9 @@
 - [x] React Hooks Welcome
 - [x] useState: greeting
 - [x] useEffect: persistent state
-- [ ] Hooks Flow
-- [ ] Lifting state
-- [ ] useState: tic tac toe
+- [x] Hooks Flow
+- [x] Lifting state
+- [x] useState: tic tac toe
 - [ ] useRef and useEffect: DOM interaction
 - [ ] useEffect: HTTP requests
 - [ ] React Hooks Outro
