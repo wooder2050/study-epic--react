@@ -32,7 +32,7 @@
 - [x] Lifting state
 - [x] useState: tic tac toe
 - [x] useRef and useEffect: DOM interaction
-- [ ] useEffect: HTTP requests
+- [x] useEffect: HTTP requests
 - [ ] React Hooks Outro
 
 ---
