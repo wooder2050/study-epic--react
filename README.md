@@ -33,7 +33,7 @@
 - [x] useState: tic tac toe
 - [x] useRef and useEffect: DOM interaction
 - [x] useEffect: HTTP requests
-- [ ] React Hooks Outro
+- [x] React Hooks Outro
 
 ---
 
