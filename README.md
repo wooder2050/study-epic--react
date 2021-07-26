@@ -45,7 +45,7 @@
 
 - [x] Advanced React Hooks Welcome
 - [x] useReducer: simple Counter
-- [ ] useCallback: custom hooks
+- [x] useCallback: custom hooks
 - [ ] useContext: simple Counter
 - [ ] useLayoutEffect: auto-growing textarea
 - [ ] useImperativeHandle: scroll to top/bottom
