@@ -43,7 +43,7 @@
 
 ### Courses
 
-- [ ] Advanced React Hooks Welcome
+- [x] Advanced React Hooks Welcome
 - [ ] useReducer: simple Counter
 - [ ] useCallback: custom hooks
 - [ ] useContext: simple Counter
