@@ -44,7 +44,7 @@
 ### Courses
 
 - [x] Advanced React Hooks Welcome
-- [ ] useReducer: simple Counter
+- [x] useReducer: simple Counter
 - [ ] useCallback: custom hooks
 - [ ] useContext: simple Counter
 - [ ] useLayoutEffect: auto-growing textarea
