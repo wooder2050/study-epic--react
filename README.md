@@ -49,7 +49,7 @@
 - [x] useContext: simple Counter
 - [x] useLayoutEffect: auto-growing textarea
 - [x] useImperativeHandle: scroll to top/bottom
-- [ ] useDebugValue: useMedia
+- [x] useDebugValue: useMedia
 - [ ] Advanced React Hooks Outro
 
 ---
