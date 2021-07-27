@@ -48,7 +48,7 @@
 - [x] useCallback: custom hooks
 - [x] useContext: simple Counter
 - [x] useLayoutEffect: auto-growing textarea
-- [ ] useImperativeHandle: scroll to top/bottom
+- [x] useImperativeHandle: scroll to top/bottom
 - [ ] useDebugValue: useMedia
 - [ ] Advanced React Hooks Outro
 
