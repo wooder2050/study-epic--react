@@ -50,7 +50,7 @@
 - [x] useLayoutEffect: auto-growing textarea
 - [x] useImperativeHandle: scroll to top/bottom
 - [x] useDebugValue: useMedia
-- [ ] Advanced React Hooks Outro
+- [x] Advanced React Hooks Outro
 
 ---
 
