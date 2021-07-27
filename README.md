@@ -60,7 +60,7 @@
 
 ### Courses
 
-- [ ] Advanced React Patterns Welcome
+- [x] Advanced React Patterns Welcome
 - [ ] Context Module Functions
 - [ ] Compound Components
 - [ ] Flexible Compound Components
