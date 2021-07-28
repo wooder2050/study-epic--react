@@ -65,7 +65,7 @@
 - [x] Compound Components
 - [x] Flexible Compound Components
 - [x] Prop Collections and Getters
-- [ ] State Reducer
+- [x] State Reducer
 - [ ] Control Props
 - [ ] Advanced React Patterns Outro
 
