@@ -61,7 +61,7 @@
 ### Courses
 
 - [x] Advanced React Patterns Welcome
-- [ ] Context Module Functions
+- [x] Context Module Functions
 - [ ] Compound Components
 - [ ] Flexible Compound Components
 - [ ] Prop Collections and Getters
