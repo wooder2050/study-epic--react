@@ -67,7 +67,7 @@
 - [x] Prop Collections and Getters
 - [x] State Reducer
 - [x] Control Props
-- [ ] Advanced React Patterns Outro
+- [x] Advanced React Patterns Outro
 
 ---
 
