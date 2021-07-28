@@ -64,7 +64,7 @@
 - [x] Context Module Functions
 - [x] Compound Components
 - [x] Flexible Compound Components
-- [ ] Prop Collections and Getters
+- [x] Prop Collections and Getters
 - [ ] State Reducer
 - [ ] Control Props
 - [ ] Advanced React Patterns Outro
