@@ -79,7 +79,7 @@
 
 - [x] React Performance Welcome
 - [x] Code Splitting
-- [ ] useMemo for Expensive Calculations
+- [x] useMemo for Expensive Calculations
 - [ ] React.memo for Reducing re-renders
 - [ ] Window Large Lists with react-virtual
 - [ ] Optimize Context Value
