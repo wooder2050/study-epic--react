@@ -77,7 +77,7 @@
 
 ### Courses
 
-- [ ] React Performance Welcome
+- [x] React Performance Welcome
 - [ ] Code Splitting
 - [ ] useMemo for Expensive Calculations
 - [ ] React.memo for Reducing re-renders
