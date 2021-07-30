@@ -84,7 +84,7 @@
 - [x] Window Large Lists with react-virtual
 - [x] Optimize Context Value
 - [x] Fix Perf Death by a Thousand Cuts
-- [ ] Production Performance Monitoring
+- [x] Production Performance Monitoring
 - [ ] React Performance Outro
 
 ---
