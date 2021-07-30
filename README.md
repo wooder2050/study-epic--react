@@ -81,7 +81,7 @@
 - [x] Code Splitting
 - [x] useMemo for Expensive Calculations
 - [x] React.memo for Reducing re-renders
-- [ ] Window Large Lists with react-virtual
+- [x] Window Large Lists with react-virtual
 - [ ] Optimize Context Value
 - [ ] Fix Perf Death by a Thousand Cuts
 - [ ] Production Performance Monitoring
