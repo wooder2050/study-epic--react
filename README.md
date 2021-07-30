@@ -82,7 +82,7 @@
 - [x] useMemo for Expensive Calculations
 - [x] React.memo for Reducing re-renders
 - [x] Window Large Lists with react-virtual
-- [ ] Optimize Context Value
+- [x] Optimize Context Value
 - [ ] Fix Perf Death by a Thousand Cuts
 - [ ] Production Performance Monitoring
 - [ ] React Performance Outro
