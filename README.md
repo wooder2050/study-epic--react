@@ -104,7 +104,7 @@
 - [x] Mocking Browser APIs and Modules
 - [x] Context and Custom Render Method
 - [x] Testing Custom Hooks
-- [ ] Testing React Apps Outro
+- [x] Testing React Apps Outro
 
 ---
 
