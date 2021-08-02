@@ -97,7 +97,7 @@
 
 - [x] Testing React Apps Welcome
 - [x] Simple Test with ReactDOM
-- [ ] Simple Test with React Testing Library
+- [x] Simple Test with React Testing Library
 - [ ] Avoid Implementation Details
 - [ ] Form Testing
 - [ ] Mocking HTTP Requests
