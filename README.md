@@ -103,7 +103,7 @@
 - [x] Mocking HTTP Requests
 - [x] Mocking Browser APIs and Modules
 - [x] Context and Custom Render Method
-- [ ] Testing Custom Hooks
+- [x] Testing Custom Hooks
 - [ ] Testing React Apps Outro
 
 ---
