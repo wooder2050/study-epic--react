@@ -101,7 +101,7 @@
 - [x] Avoid Implementation Details
 - [x] Form Testing
 - [x] Mocking HTTP Requests
-- [ ] Mocking Browser APIs and Modules
+- [x] Mocking Browser APIs and Modules
 - [ ] Context and Custom Render Method
 - [ ] Testing Custom Hooks
 - [ ] Testing React Apps Outro
