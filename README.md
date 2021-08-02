@@ -100,7 +100,7 @@
 - [x] Simple Test with React Testing Library
 - [x] Avoid Implementation Details
 - [x] Form Testing
-- [ ] Mocking HTTP Requests
+- [x] Mocking HTTP Requests
 - [ ] Mocking Browser APIs and Modules
 - [ ] Context and Custom Render Method
 - [ ] Testing Custom Hooks
