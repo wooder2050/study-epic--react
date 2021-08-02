@@ -95,7 +95,7 @@
 
 ### Courses
 
-- [ ] Testing React Apps Welcome
+- [x] Testing React Apps Welcome
 - [ ] Simple Test with ReactDOM
 - [ ] Simple Test with React Testing Library
 - [ ] Avoid Implementation Details
