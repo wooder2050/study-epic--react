@@ -99,7 +99,7 @@
 - [x] Simple Test with ReactDOM
 - [x] Simple Test with React Testing Library
 - [x] Avoid Implementation Details
-- [ ] Form Testing
+- [x] Form Testing
 - [ ] Mocking HTTP Requests
 - [ ] Mocking Browser APIs and Modules
 - [ ] Context and Custom Render Method
