@@ -115,7 +115,7 @@
 ### Courses
 
 - [x] React Suspense Welcome
-- [ ] Concurrent Mode
+- [x] Concurrent Mode
 - [ ] Simple Data-Fetching
 - [ ] Render as You Fetch
 - [ ] useTransition
