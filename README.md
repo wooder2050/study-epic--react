@@ -120,7 +120,7 @@
 - [x] Render as You Fetch
 - [x] useTransition
 - [x] Cache Resources
-- [ ] Suspense Image
+- [x] Suspense Image
 - [ ] Suspense with a Custom Hook
 - [ ] Coordinate Suspending Components with SuspenseList
 - [ ] React Suspense Outro
