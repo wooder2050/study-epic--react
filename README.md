@@ -117,8 +117,8 @@
 - [x] React Suspense Welcome
 - [x] Concurrent Mode
 - [x] Simple Data-Fetching
-- [ ] Render as You Fetch
-- [ ] useTransition
+- [x] Render as You Fetch
+- [x] useTransition
 - [ ] Cache Resources
 - [ ] Suspense Image
 - [ ] Suspense with a Custom Hook
