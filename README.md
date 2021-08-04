@@ -123,7 +123,7 @@
 - [x] Suspense Image
 - [x] Suspense with a Custom Hook
 - [x] Coordinate Suspending Components with SuspenseList
-- [ ] React Suspense Outro
+- [x] React Suspense Outro
 
 ---
 
