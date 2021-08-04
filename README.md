@@ -133,7 +133,7 @@
 
 ### Courses
 
-- [ ] Build an Epic React App Welcome
+- [x] Build an Epic React App Welcome
 - [ ] Walkthrough of Project Setup
 - [ ] Render a React App
 - [ ] Add Styles
