@@ -121,7 +121,7 @@
 - [x] useTransition
 - [x] Cache Resources
 - [x] Suspense Image
-- [ ] Suspense with a Custom Hook
+- [x] Suspense with a Custom Hook
 - [ ] Coordinate Suspending Components with SuspenseList
 - [ ] React Suspense Outro
 
