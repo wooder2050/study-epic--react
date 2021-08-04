@@ -119,7 +119,7 @@
 - [x] Simple Data-Fetching
 - [x] Render as You Fetch
 - [x] useTransition
-- [ ] Cache Resources
+- [x] Cache Resources
 - [ ] Suspense Image
 - [ ] Suspense with a Custom Hook
 - [ ] Coordinate Suspending Components with SuspenseList
