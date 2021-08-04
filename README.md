@@ -122,7 +122,7 @@
 - [x] Cache Resources
 - [x] Suspense Image
 - [x] Suspense with a Custom Hook
-- [ ] Coordinate Suspending Components with SuspenseList
+- [x] Coordinate Suspending Components with SuspenseList
 - [ ] React Suspense Outro
 
 ---
