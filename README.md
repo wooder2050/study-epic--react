@@ -116,7 +116,7 @@
 
 - [x] React Suspense Welcome
 - [x] Concurrent Mode
-- [ ] Simple Data-Fetching
+- [x] Simple Data-Fetching
 - [ ] Render as You Fetch
 - [ ] useTransition
 - [ ] Cache Resources
