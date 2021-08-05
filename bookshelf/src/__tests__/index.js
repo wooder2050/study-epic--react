@@ -1,7 +1,8 @@
 import ReactDOM from 'react-dom'
 import '@testing-library/jest-dom/extend-expect'
-import {screen, waitForElementToBeRemoved} from '@testing-library/react'
+import {screen, waitForElementToBeRemoved, within} from '@testing-library/react'
 import userEvent from '@testing-library/user-event'
+import faker from 'faker'
 import {server} from 'test/server'
 
 // enable API mocking in test runs using the same request handlers
@@ -13,6 +14,15 @@ afterEach(() => server.resetHandlers())
 // this is a pretty comprehensive test and CI is pretty slow...
 jest.setTimeout(25000)
 
+function buildUser(overrides) {
+  return {
+    id: faker.random.uuid(),
+    username: faker.internet.userName(),
+    password: faker.internet.password(),
+    ...overrides,
+  }
+}
+
 const waitForLoadingToFinish = () =>
   waitForElementToBeRemoved(
     () => [
@@ -22,19 +32,26 @@ const waitForLoadingToFinish = () =>
     {timeout: 4000},
   )
 
-test('renders the app', async () => {
+test('can login and use the book search', async () => {
   const root = document.createElement('div')
   root.id = 'root'
   document.body.append(root)
 
   require('..')
 
-  userEvent.type(screen.getByPlaceholderText(/search/i), 'voice of war')
-  userEvent.click(screen.getByLabelText(/search/i))
+  const user = buildUser()
+
+  userEvent.click(await screen.findByRole('button', {name: /register/i}))
+
+  const modal = within(screen.getByRole('dialog'))
+  userEvent.type(modal.getByLabelText(/username/i), user.username)
+  userEvent.type(modal.getByLabelText(/password/i), user.password)
+
+  userEvent.click(modal.getByRole('button', {name: /register/i}))
 
   await waitForLoadingToFinish()
 
-  expect(screen.getByText(/voice of war/i)).toBeInTheDocument()
+  userEvent.click(screen.getByRole('button', {name: /logout/i}))
 
   // cleanup
   ReactDOM.unmountComponentAtNode(root)

@@ -138,7 +138,7 @@
 - [x] Render a React App
 - [x] Add Styles
 - [x] Make HTTP Requests
-- [ ] Authentication
+- [x] Authentication
 - [ ] Routing
 - [ ] Cache Management
 - [ ] Context
