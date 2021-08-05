@@ -134,7 +134,7 @@
 ### Courses
 
 - [x] Build an Epic React App Welcome
-- [ ] Walkthrough of Project Setup
+- [x] Walkthrough of Project Setup
 - [ ] Render a React App
 - [ ] Add Styles
 - [ ] Make HTTP Requests
