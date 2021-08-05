@@ -1,6 +1,9 @@
-// export * from './index.final'
+import {loadDevTools} from './dev-tools/load'
+import './bootstrap'
+import * as React from 'react'
+import ReactDOM from 'react-dom'
+import {DiscoverBooksScreen} from './discover'
 
-export * from './index.exercise'
-
-// 💯 make a loading spinner component
-// export * from './index.extra-3'
+loadDevTools(() => {
+  ReactDOM.render(<DiscoverBooksScreen />, document.getElementById('root'))
+})

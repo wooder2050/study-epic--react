@@ -137,7 +137,7 @@
 - [x] Walkthrough of Project Setup
 - [x] Render a React App
 - [x] Add Styles
-- [ ] Make HTTP Requests
+- [x] Make HTTP Requests
 - [ ] Authentication
 - [ ] Routing
 - [ ] Cache Management
