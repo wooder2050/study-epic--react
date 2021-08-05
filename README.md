@@ -135,7 +135,7 @@
 
 - [x] Build an Epic React App Welcome
 - [x] Walkthrough of Project Setup
-- [ ] Render a React App
+- [x] Render a React App
 - [ ] Add Styles
 - [ ] Make HTTP Requests
 - [ ] Authentication
