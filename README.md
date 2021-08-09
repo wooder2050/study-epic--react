@@ -140,7 +140,7 @@
 - [x] Make HTTP Requests
 - [x] Authentication
 - [x] Routing
-- [ ] Cache Management
+- [x] Cache Management
 - [ ] Context
 - [ ] Compound Components
 - [ ] Performance

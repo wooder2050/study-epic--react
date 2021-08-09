@@ -1,9 +1,6 @@
-import {loadDevTools} from './dev-tools/load'
-import './bootstrap'
-import * as React from 'react'
-import ReactDOM from 'react-dom'
-import {App} from './app'
+// no final
 
-loadDevTools(() => {
-  ReactDOM.render(<App />, document.getElementById('root'))
-})
+export * from './index.exercise'
+
+// 💯 Wrap the `<App />` in a `<ReactQueryConfigProvider />`
+// export * from './index.extra-2'

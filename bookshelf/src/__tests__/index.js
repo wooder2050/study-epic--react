@@ -57,9 +57,8 @@ test('can login and use the book search', async () => {
   userEvent.click(screen.getAllByRole('link', {name: /discover/i})[0])
 
   const searchInput = screen.getByPlaceholderText(/search/i)
-  userEvent.type(searchInput, 'voice of war')
+  userEvent.type(searchInput, 'voice of war{enter}')
 
-  userEvent.click(screen.getByLabelText(/search/i))
   await waitForLoadingToFinish()
 
   userEvent.click(screen.getByText(/voice of war/i))
