@@ -4,13 +4,13 @@ import {jsx} from '@emotion/core'
 import * as React from 'react'
 import Tooltip from '@reach/tooltip'
 import {FaSearch, FaTimes} from 'react-icons/fa'
-import {Input, BookListUL, Spinner} from './components/lib'
-import {BookRow} from './components/book-row'
-import {client} from './utils/api-client'
-import * as colors from './styles/colors'
-import {useAsync} from './utils/hooks'
+import {Input, BookListUL, Spinner} from 'components/lib'
+import {BookRow} from 'components/book-row'
+import {client} from 'utils/api-client'
+import * as colors from 'styles/colors'
+import {useAsync} from 'utils/hooks'
 
-function DiscoverBooksScreen() {
+function DiscoverBooksScreen({user}) {
   const {data, error, run, isLoading, isError, isSuccess} = useAsync()
   const [query, setQuery] = React.useState()
   const [queried, setQueried] = React.useState(false)
@@ -19,8 +19,8 @@ function DiscoverBooksScreen() {
     if (!queried) {
       return
     }
-    run(client(`books?query=${encodeURIComponent(query)}`))
-  }, [query, queried, run])
+    run(client(`books?query=${encodeURIComponent(query)}`, {token: user.token}))
+  }, [query, queried, run, user.token])
 
   function handleSearchSubmit(event) {
     event.preventDefault()
@@ -29,9 +29,7 @@ function DiscoverBooksScreen() {
   }
 
   return (
-    <div
-      css={{maxWidth: 800, margin: 'auto', width: '90vw', padding: '40px 0'}}
-    >
+    <div>
       <form onSubmit={handleSearchSubmit}>
         <Input
           placeholder="Search books..."

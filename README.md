@@ -139,7 +139,7 @@
 - [x] Add Styles
 - [x] Make HTTP Requests
 - [x] Authentication
-- [ ] Routing
+- [x] Routing
 - [ ] Cache Management
 - [ ] Context
 - [ ] Compound Components
